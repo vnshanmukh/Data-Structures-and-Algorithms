@@ -5,7 +5,6 @@ class LinkedList:
 
 
 def removeDuplicatesFromLinkedList(linkedList):
-    # Write your code here.
 	currentNode = linkedList
 	while currentNode is not None:
 		nextNode = currentNode.next
